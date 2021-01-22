@@ -15,7 +15,7 @@ function init() {
     var firstSample = sampleNames[0];
     buildCharts(firstSample);
     buildMetadata(firstSample);
-    
+
     })
 }
 
@@ -34,7 +34,7 @@ function buildMetadata(sample) {
         var PANEL = d3.select('#sample-metadata');
 
         PANEL.html('');
-        Object.entries(result).forEach(([key, value]) => {PANEL.append('h5').text(key + ': ' + value)});
+        Object.entries(result).forEach(([key, value]) => {PANEL.append('h6').text(key + ': ' + value)});
   
     });
 }
