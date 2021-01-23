@@ -1,0 +1,17 @@
+body {
+    background-color: teal;
+}
+.well {
+    background-color: #8cc8c8;
+}
+.panel {
+    background-color: #8cc8c8;
+}
+
+.jumbotron {
+    background-image: url('../images/belly.jpeg');opacity:1;
+    background-size: 100% 160%;
+    text-shadow: 3px 1px white;
+};
+
+
